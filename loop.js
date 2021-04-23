@@ -17,9 +17,9 @@ for(let i = 1; i<=100; i++) {
 }
 console.log(sum);
 
-console.log("Factorial")
-var prod = 1;
-for(let i = 1; i <= 100000000; prod++){
-    i *= prod
+console.log("Factorial");
+var total = 1;
+for(var n = 1; total <= 100000000; n++) {
+    total *= n + 1
 }
-console.log(prod-1);
+console.log(n);
